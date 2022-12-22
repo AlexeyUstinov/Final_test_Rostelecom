@@ -5,6 +5,6 @@ https://chromedriver.chromium.org/downloads - скачать версию Seleni
 
 Команда для запуска тестов
 
-python3 -m pytest -v --driver Chrome --driver-path ${PATH_TO_DRIVER} tests_labirint/tests_labirint.py
+python3 -m pytest -v --driver Chrome --driver-path ${PATH_TO_DRIVER} tests_rostelecom.py.py
 
 Где ${PATH_TO_DRIVER} находится путь к драйверу Selenium для текущей ОС
